@@ -1,0 +1,65 @@
+.destinationButton {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  background-color: #6c4a40;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.startIcon {
+  color: orange;
+  scale: 0.8;
+}
+.rating {
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.destinationText {
+  font-size: 1.8rem;
+  margin: 0;
+}
+.horizontalRow {
+  height: 0.1rem !important;
+  color: rgb(188, 188, 188);
+  opacity: 1;
+  margin: 0;
+}
+@media (max-width: 1200px) {
+  .destinationText {
+    font-size: 1.5em;
+  }
+  .destinationType {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 491px) {
+  .destinationHeading {
+    font-size: 1.4rem;
+  }
+  .destinationButton {
+    height: 2.5rem;
+    width: 2rem;
+   
+  }
+  .destinationNavigation{
+    scale: 0.6;
+  }
+}
+@media (max-width: 400px) {
+  .destinationText {
+    font-size: 1.2em;
+  }
+  .destinationType {
+    font-size: 0.6rem;
+  }
+  .destinationHeading {
+    font-size: 1.2rem;
+  }
+}
