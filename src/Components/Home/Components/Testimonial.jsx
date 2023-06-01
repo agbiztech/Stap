@@ -1,19 +1,37 @@
 import React from 'react'
 import './Style/Testimonial.css'
-const Testimonial = () => {
+const Testimonial = (props) => {
   return (
     <div className='tst_container'>
       <div className="tst_wrapper">
         <div className="tst_heading">
-          <h2>Client Testimonial</h2>
+          <h2>{props.data.heading}</h2>
+        </div>
+        <div className="tst-card_container">
+        <div className="tst_cards">
+          <div >
+            <img className="tst_card_img" src={props.data.image1} alt="" />
+          </div>
+          <div className="tst_card_name"><h3>{props.data.name1}</h3></div>
+          <div className="tst_card_rate"></div>
+          <div className="tst_card_para"><p>{props.data.para1}</p></div>
         </div>
         <div className="tst_cards">
-          <div className="tst_card_img">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBCQkJ9H19piIgHPU_JNyHdFiRcDSGjbhDRCBkVHg&s" alt="" />
+          <div >
+            <img className="tst_card_img" src={props.data.image2} alt="" />
           </div>
-          <div className="tst_card_name"><h3>Jonny Walker Hussy</h3></div>
+          <div className="tst_card_name"><h3>{props.data.name2}</h3></div>
           <div className="tst_card_rate"></div>
-          <div className="tst_card_para"><p>Quote testimonials are ads or artwork that display positive statements about your company from a brand evanglist or a delighted customer.The quote is usually accompanied by an image.</p></div>
+          <div className="tst_card_para"><p>{props.data.para2}</p></div>
+        </div>
+        <div className="tst_cards">
+          <div >
+            <img className="tst_card_img" src={props.data.image3} alt="" />
+          </div>
+          <div className="tst_card_name"><h3>{props.data.name3}</h3></div>
+          <div className="tst_card_rate"></div>
+          <div className="tst_card_para"><p>{props.data.para3}</p></div>
+        </div>
         </div>
       </div>
     </div>
