@@ -1,8 +1,9 @@
-.special-offer-image{
+ /* .special-offer-image{
   height: 100%;
-  width: 100%;
+  max-width: 100% !important;
   border-radius: 1rem;
-}
+} */
+/*
 .special-offer-section{
   padding: 5px;
   margin-top: 5px;
@@ -15,7 +16,7 @@
 .card-container{
   /* height: 170px ; */
   /* box-shadow: 5px 5px 20px rgb(161, 160, 160); */
-}
+ /*}
 .offers-intro h3{
   margin: 10px;
   font-size: 20px;
@@ -33,9 +34,9 @@
   opacity: 0.7;
   
   /* padding: 6px; */
-  box-sizing: border-box;
+  /* box-sizing: border-box;
   position: absolute;
   top: 1px;
   background:rgb(26, 17, 17) ;
   color: black;
-}
+} */

@@ -1,62 +1,60 @@
 import React from "react";
 import "./Style/SpecialOffer.css";
+import "./Style/Slider.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
+import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
+import { Card, Col, Container, Row } from "react-bootstrap";
+import { Button, TextField } from "@mui/material";
 import "swiper/swiper-bundle.min.css";
-const SpecialOffer = (props) => {
+const SpecialOffer = ({ data }) => {
   return (
     <>
-      <div className="container">
-        <div className="row">
-          <h1 className="special-offer-heading">Special offer</h1>
-        </div>
-        <div className="row special-offer-section">
-          
+      <Container className="my-5">
+        <h1>Special Offers</h1>
+      </Container>
+      <Container className="mb-5">
+        <Row>
           <Swiper
-          modules={[Navigation, Pagination, Scrollbar, A11y]}
-          // spaceBetween={50}
-          // slidesPerView={3}
-          navigation
-          pagination={{ clickable: true }}
-          // scrollbar={{ draggable: true }}
-          onSwiper={(swiper) => console.log(swiper)}
-          onSlideChange={() => console.log('slide change')}
+            slidesPerView={3}
+            spaceBetween={30}
+            // pagination={{
+            //   clickable: true,
+            // }}
+            navigation={true}
+            modules={[Navigation]}
+            className="mySwiper"
             breakpoints={{
-              0:{
-                slidesPerView:1,
-                spaceBetween:10,
-          
+              0: {
+                slidesPerView: 1,
+                spaceBetween: 10,
               },
-              400:{
-                slidesPerView:3,
-                spaceBetween:20,
-          
+              500: {
+                slidesPerView: 2,
               },
-              720:{
-                slidesPerView:3,
-                spaceBetween:20,
-          
+              992: {
+                slidesPerView: 3,
               },
-              990:{
-                slidesPerView:3,
-                spaceBetween:40,
-          
-              }
             }}
           >
-            {props.data.map((item) => (
-              <SwiperSlide key={item.image} className="card-container">
-                <img src={item.linkedImg} className="special-offer-image " />
-                <div className="offers-intro">
-                  <h3 >{item.title}</h3>
-                  <p >{item.paragraph}</p>
-                  <span>{item.price}</span>
-                </div>
+            {data.map((item, index) => (
+              <SwiperSlide key={index}>
+                <Card className=" text-white eventCard" style={{}}>
+                  <Card.Img src={item.linkedImg} alt="Card image" style
+                  ={{background:"rgba(52, 51, 51)"}} />
+                  <Card.ImgOverlay style={{}}>
+                    <Card.Title style
+                  ={{fontWeight:"bold",color:"white",opacity:1}}> {item.title}</Card.Title>
+                    <Card.Text>
+                      {item.paragraph}
+                    </Card.Text>
+                    <Card.Text>{item.place}</Card.Text>
+                  </Card.ImgOverlay>
+                </Card>
               </SwiperSlide>
             ))}
           </Swiper>
-        </div>
-      </div>
+        </Row>
+      </Container>
     </>
   );
 };
