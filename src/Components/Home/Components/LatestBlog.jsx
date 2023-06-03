@@ -7,7 +7,6 @@ import ContentLatestBlog from "../Content/ContentLatestBlog";
 import { Col, Container, Row } from "react-bootstrap";
 
 const LatestBlog = () => {
-  // console.log(ContentLatestBlog);
   return (
     <>
       <div className="container mb-4 d-flex justify-content-between">

@@ -1,14 +1,20 @@
 #Footer-1{
     text-align: left;
     color: white;
+    border-bottom: 2px solid #ffc62d;
+    padding-bottom: 10px;
+}
+#Footer-11{
+    text-align: left;
+    color: white;
 }
 .Footer-Part{
-    background-color: #6c4a40;
+    background-color: #2e875c;
     color: white;
 }
 .Footer-Image{
     width: 100%;
-    height: 100px;
+    height: 200px;
 }
 .Footer-icon {
     margin: 10px;
@@ -19,6 +25,13 @@
 #TextNone{
     cursor: pointer;
     text-decoration: none;
+    font-weight: bold;
+    color: white;
+    
+}
+#TextNone:hover{
+    color: #ffc62d;
+    
 }
 #footer-link{
     cursor: pointer;
@@ -33,9 +46,17 @@
         text-align: center;
         color: white;
     }
+    #Footer-11{
+        text-align: center;
+        color: white;
+    }
 }
 @media screen and (max-width: 600px) {
     #Footer-1{
+        text-align: center;
+        color: white;
+    }
+    #Footer-11{
         text-align: center;
         color: white;
     }

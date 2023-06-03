@@ -120,19 +120,19 @@ const Footer = () => {
                 Contact
               </h6>
               <p className="Footer-Color">
-                <MDBIcon id="Footer-1" icon="home" className="me-2" />
+                <MDBIcon id="Footer-11" icon="home" className="me-2" />
                 1245K, Green Park Colony, Rampur, Roorkee – 247667 (INDIA)
               </p>
               <p className="Footer-Color">
-                <MDBIcon id="Footer-1" icon="envelope" className="me-3" />
+                <MDBIcon id="Footer-11" icon="envelope" className="me-3" />
                 info@cenvs.com
               </p>
               <p className="Footer-Color">
-                <MDBIcon id="Footer-1" icon="phone" className="me-3" />{" "}
+                <MDBIcon id="Footer-11" icon="phone" className="me-3" />{" "}
                 +91-9520717737
               </p>
               <p className="Footer-Color">
-                <MDBIcon id="Footer-1" icon="print" className="me-3" />{" "}
+                <MDBIcon id="Footer-11" icon="print" className="me-3" />{" "}
                 +91-8937991921
               </p>
             </MDBCol>
@@ -143,12 +143,12 @@ const Footer = () => {
 
       <div
         className="text-center p-4 border-top"
-        style={{ backgroundColor: "#6c4a40", color: "white" }}
+        style={{ backgroundColor: "#2e875c", color: "white" }}
       >
         © 2023 <strong>Stap, All rights reserved</strong> : Developed by&nbsp;
         <a
           id="TextNone"
-          className="text-reset fw-bold"
+          
           href="https://agbiztech.in/"
           target="_blank"
         >
