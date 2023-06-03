@@ -5,18 +5,18 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { Navigation, Pagination, Scrollbar, A11y } from "swiper";
 import { Card, Col, Container, Row } from "react-bootstrap";
 import { Button, TextField } from "@mui/material";
+
 import "swiper/swiper-bundle.min.css";
-const SpecialOffer = ({ data }) => {
+const SpecialOffer = (props) => {
   return (
     <>
       <Container className="my-5">
         <h1>Special Offers</h1>
       </Container>
       <Container className="mb-5">
-        <Row>
+      
           <Swiper
-            slidesPerView={3}
-            spaceBetween={30}
+            
             // pagination={{
             //   clickable: true,
             // }}
@@ -26,17 +26,19 @@ const SpecialOffer = ({ data }) => {
             breakpoints={{
               0: {
                 slidesPerView: 1,
-                spaceBetween: 10,
+                spaceBetween:20,
               },
-              500: {
+              756: {
                 slidesPerView: 2,
+                spaceBetween:20,
               },
               992: {
                 slidesPerView: 3,
+                spaceBetween:20,
               },
             }}
           >
-            {data.map((item, index) => (
+            {props.data.map((item, index) => (
               <SwiperSlide key={index}>
                 <Card className=" text-white eventCard" style={{}}>
                   <Card.Img src={item.linkedImg} alt="Card image" style
@@ -53,7 +55,7 @@ const SpecialOffer = ({ data }) => {
               </SwiperSlide>
             ))}
           </Swiper>
-        </Row>
+        
       </Container>
     </>
   );

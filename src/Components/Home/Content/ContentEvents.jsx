@@ -6,7 +6,7 @@ const ContentEvents = [
     capacity:"Capacity 20",
     price:"850.50",
     btn:"Book Now",
-    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9PNdlru5GbgymCnDWAQLSmpOooacm1kr9SvRvmN9ffg&s"
+    image:"https://www.stockvault.net/data/2011/05/31/124348/thumb16.jpg"
 },
 {
     place:"Kerala Hiking Tour",
@@ -15,7 +15,7 @@ const ContentEvents = [
     capacity:"Capacity 20",
     price:"850.50",
     btn:"Book Now",
-    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9PNdlru5GbgymCnDWAQLSmpOooacm1kr9SvRvmN9ffg&s"
+    image:"https://www.stockvault.net/data/2011/05/31/124348/thumb16.jpg"
 },
 {
     place:"Kerala Hiking Tour",
@@ -24,7 +24,7 @@ const ContentEvents = [
     capacity:"Capacity 20",
     price:"850.50",
     btn:"Book Now",
-    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9PNdlru5GbgymCnDWAQLSmpOooacm1kr9SvRvmN9ffg&s"
+    image:"https://www.stockvault.net/data/2011/05/31/124348/thumb16.jpg"
 },
 {
     place:"Kerala Hiking Tour",
@@ -33,7 +33,7 @@ const ContentEvents = [
     capacity:"Capacity 20",
     price:"850.50",
     btn:"Book Now",
-    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9PNdlru5GbgymCnDWAQLSmpOooacm1kr9SvRvmN9ffg&s"
+    image:"https://www.stockvault.net/data/2011/05/31/124348/thumb16.jpg"
 },
 {
     place:"Kerala Hiking Tour",
@@ -42,7 +42,7 @@ const ContentEvents = [
     capacity:"Capacity 20",
     price:"850.50",
     btn:"Book Now",
-    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9PNdlru5GbgymCnDWAQLSmpOooacm1kr9SvRvmN9ffg&s"
+    image:"https://www.stockvault.net/data/2011/05/31/124348/thumb16.jpg"
 },
 {
     place:"Kerala Hiking Tour",
@@ -51,7 +51,7 @@ const ContentEvents = [
     capacity:"Capacity 20",
     price:"850.50",
     btn:"Book Now",
-    image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT9PNdlru5GbgymCnDWAQLSmpOooacm1kr9SvRvmN9ffg&s"
+    image:"https://www.stockvault.net/data/2011/05/31/124348/thumb16.jpg"
 },
 ];
   
