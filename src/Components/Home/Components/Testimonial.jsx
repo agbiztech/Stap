@@ -13,7 +13,7 @@ const Testimonial = (props) => {
     <div className='tst_container'>
       <div className="tst_wrapper">
         <div className="tst_heading">
-          <h2>{props.data.heading}</h2>
+          <h1>{props.data.heading}</h1>
         </div>
         <div className="tst-card_container">
         <Swiper
@@ -55,7 +55,7 @@ const Testimonial = (props) => {
     
         <SwiperSlide className="tst_cards">
           <div >
-            <img className="tst_card_img" src={props.data.image1} alt="" />
+            <img className="tst_card_img" src={props.data.image2} alt="" />
           </div>
           <div className="tst_content">
           <div className="tst_card_name"><h3>{props.data.name1}</h3></div>
@@ -67,7 +67,7 @@ const Testimonial = (props) => {
     
         <SwiperSlide className="tst_cards">
           <div >
-            <img className="tst_card_img" src={props.data.image1} alt="" />
+            <img className="tst_card_img" src={props.data.image3} alt="" />
           </div>
           <div className="tst_content">
           <div className="tst_card_name"><h3>{props.data.name1}</h3></div>
