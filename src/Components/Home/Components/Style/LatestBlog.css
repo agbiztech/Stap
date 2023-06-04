@@ -1,5 +1,5 @@
 .blog_btn {
-  color: #6c4a40;
+  color: #2e875c;
   font-size: 14px;
   text-transform: capitalize;
   background-color: transparent;
@@ -11,12 +11,12 @@
 }
 .blogDate {
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 12px;
 }
 .blogLink {
-  color: #6c4a40;
+  color: #2e875c;
   cursor: pointer;
-  font-size: 1em;
+  font-size: 14px;
 }
 .blogDescription {
   display: -webkit-box;
@@ -32,18 +32,43 @@
 }
 
 @media (max-width: 1200px) {
-  .profileName,
+ 
   .blogLink {
+    font-size: 12px;
+  }
+  .profileName{
     font-size: 0.8em;
-    /* width: 18rem; */
+  }
+  .profileDesignation {
+    font-size: 0.65em;
+  }
+}
+@media (max-width: 992px) {
+  .profileName {
+    font-size: 0.8em;
+  }
+  .profileDesignation {
+    font-size: 0.6em;
+  }
+  .blogCard{
+    width: 20rem !important;
   }
  
 }
-@media (max-width: 992px) {
+@media (max-width: 768px) {
   .profileName {
     font-size: 1em;
   }
   .profileDesignation {
     font-size: 0.8em;
   }
+  .blogLink {
+    font-size: 14px;
+  }
+  .blogCard{
+    width: 100% !important;
+  }
+ 
 }
+
+
