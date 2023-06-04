@@ -1,6 +1,6 @@
 .Destination{
   background-color: #88c6a810;
-  padding: 50px;
+  /* padding: 50px; */
 }
 .destinationHeading {
   border-bottom: 2px solid #2e875c27;
@@ -38,6 +38,11 @@
   opacity: 1;
   margin: 0;
 }
+
+.destinationCard{
+  /* width: 25vw !important; */
+  height: 32vh ;
+}
 @media (max-width: 1200px) {
   .destinationText {
     font-size: 1.5em;
@@ -46,6 +51,7 @@
     font-size: 0.8rem;
   }
 }
+
 
 @media (max-width: 491px) {
   .destinationHeading {
@@ -60,6 +66,7 @@
     scale: 0.6;
   }
 }
+
 @media (max-width: 400px) {
   .destinationText {
     font-size: 1.2em;
@@ -71,3 +78,4 @@
     font-size: 1.2rem;
   }
 }
+
