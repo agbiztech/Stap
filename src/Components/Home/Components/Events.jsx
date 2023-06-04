@@ -62,11 +62,11 @@ const Events = (props) => {
                   </Card.Subtitle>
                   <hr />
                   <Card.Subtitle className=" text-muted d-flex  align-items-center justify-content-between tour-info">
-                    <div className="d-flex justify-content-between align-items-center event-duration">
+                    <div className="d-flex justify-content-center align-items-center event-duration">
                       <TimelapseIcon  className="mx-1" />
                       {item.duration}
                     </div>
-                    <div className="d-flex justify-content-between align-items-center event-capacity">
+                    <div className="d-flex justify-content-center align-items-center event-capacity">
                       <AccountCircleIcon className="mx-1"/>
                       {item.capacity}
                     </div>
@@ -87,7 +87,7 @@ const Events = (props) => {
                           paddingRight: "20px",
                           fontSize: "15px",
                           borderRadius: "10px",
-                          "&:hover": { background: "#6c4a40" },
+                          "&:hover": { background: "#2e875c" },
                         }}
                       >
                         {item.btn}
