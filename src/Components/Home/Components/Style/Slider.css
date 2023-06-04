@@ -6,10 +6,19 @@
   height: 60px !important;
   width: 60px !important;
   scale: 0.6 !important;
-  padding: 2.5rem !important;
+  
   font-weight: bold;
   position: absolute !important;
   
+}
+.swiper-button-prev{
+margin-left: -1rem;
+padding: 2.5rem !important;
+}
+.swiper-button-next{
+  margin-right: -1rem;
+  
+  padding: 2.5rem !important;
 }
 
 @media (max-width: 1400px) {

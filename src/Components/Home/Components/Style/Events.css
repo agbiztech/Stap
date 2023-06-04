@@ -1,13 +1,31 @@
-/* .eventPlaces{
-    font-size: 1rem;
+*{
+    font-family: sans-serif;
+    letter-spacing: 1px;
+}
+.tour-info{
+
+}
+.main-card{
+    
+}
+.tour-title{
+    text-transform: uppercase;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  /* word-spacing: 4px; */
+}
+.event-duration{
+    font-size: .9em;
+    color: black;
+}
+.event-capacity{
+    font-size: .9em;
+    color: black;
+    
+}
+.event-price{
+    font-size: 1.5em;
+    color: #0d3b51;
     font-weight: bold;
 }
-.placeDes{
-    font-size: 13px;
-}
-.eventDuration{
-    margin-right: 12px;
-}
-.eventCapacity{
-   
-} */
