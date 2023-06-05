@@ -50,7 +50,7 @@ const SpecialOffer = (props) => {
                   
                 >
                   <Card.ImgOverlay
-                    style={{ background: "black", opacity: 0.6 }}
+                    style={{ background: "black", opacity: 0.4 }}
                   >
                     <div className=" mx-5 ">
                       <Card.Title

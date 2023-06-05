@@ -6,7 +6,7 @@ const Newsletter = (props) => {
   return (
     <>
     
-      <div className=" newsletter-section">
+      <div className=" container newsletter-section mb-5">
        <form action="">
         <h1 style={{fontFamily:"montserrat"}}>{props.data.Heading}<span>Newsletter</span></h1>
         <p>{props.data.Para}</p>

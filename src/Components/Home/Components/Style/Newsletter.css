@@ -9,6 +9,7 @@
     padding: 100px 40px;
     text-align: center;
     color: white;
+    border-radius: 10px;
 }
 .newsletter-section p{
     max-width: 600px;
@@ -26,7 +27,7 @@
     background:#0d3b51;
     width: 40px !important;
   height: 40px !important;
-  /* font-size: 39px !important; */
+  font-size: 39px !important;
 }
 .newsletter-text-box,.newsletter-btn{
     border: none;
@@ -36,7 +37,7 @@
     width: 0px;
     transition: 0.6s;
 }
-.email-box:hover>.newsletter-text-box,.newsletter-btn:focus{
+.email-box:hover>.newsletter-text-box,.email-icon:focus{
     width: 260px;
     padding: 0 10px;
 }
