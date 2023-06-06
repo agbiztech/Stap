@@ -2,14 +2,10 @@ import React from "react";
 import "./Style/LatestBlog.css";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import BlogCard from "./BlogCard";
-<<<<<<< HEAD
 import ContentLatestBlog from "../Content/ContentLatestBlog";
-=======
-
->>>>>>> 1014e85feb255e34a5ec84fb9e1b763e924b566f
 import { Col, Container, Row } from "react-bootstrap";
 
-const LatestBlog = (props) => {
+const LatestBlog = (props) => { 
   return (
     <>
       <div className="container mb-4 d-flex justify-content-between">
