@@ -2,7 +2,6 @@ import React from "react";
 import "./Style/LatestBlog.css";
 import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 import BlogCard from "./BlogCard";
-
 import ContentLatestBlog from "../Content/ContentLatestBlog";
 import { Col, Container, Row } from "react-bootstrap";
 
