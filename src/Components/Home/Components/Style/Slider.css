@@ -1,46 +1,28 @@
-
-
-.swiper-button-next,.swiper-button-prev {
+.swiper-button-next,
+.swiper-button-prev {
   color: rgb(255, 255, 255) !important;
-  background-color: green;
+  background-color: #0d3b51;
   border-radius: 50%;
   height: 60px !important;
   width: 60px !important;
   scale: 0.6 !important;
-  padding: 2.5rem !important;
   font-weight: bold;
-  position:absolute !important;
-}
-.eventCard{
-    max-width: 75%;
-}
-.swiper-wrapper {
-    margin-left: 3rem !important;
+  position: absolute !important;
   
+}
+.swiper-button-prev{
+margin-left: -1rem;
+padding: 2.5rem !important;
+}
+.swiper-button-next{
+  margin-right: -1rem;
+  
+  padding: 2.5rem !important;
 }
 
 @media (max-width: 1400px) {
-    .swiper-wrapper {
-        /* margin-left: 3rem !important; */
-      
-    }
-   
-  }
+}
 @media (max-width: 768px) {
-    .eventCard{
-        /* max-width: 80%; */
-    }
-    .swiper-wrapper {
-        margin-left: 1.8rem !important;
-      
-    }
-   
-  }
+}
 @media (max-width: 500px) {
-    
-    .swiper-wrapper {
-        margin-left: 3.8rem !important;
-      
-    }
-   
-  }
+}
