@@ -1,35 +1,28 @@
-import React from 'react'
-import './Style/AboutUs.css';
-import AboutUsTecHealth from './Components/AboutUsTecHealth';
-import MakeUs from './Components/MakeUs';
-import Started from './Components/Started';
-import Advantages from './Components/Advantages';
-import ChooseUs from './Components/ChooseUs';
-import Service from './Components/Service';
-import OurTeam from './Components/OurTeam';
-import NeedAmbulance from './Components/NeedAmbulance';
-import ContentAboutUsTecHealth from './Content/ContentAboutUsTecHealth';
-import ContentMakeUs from './Content/ContentMakeUs';
-import ContentStarted from './Content/ContentStarted';
-import ContentAdvantages from './Content/ContentAdvantages';
-import ContentChooseUs from './Content/ContentChooseUs';
-import ContentService from './Content/ContentService';
-import ContentOurTeam from './Content/ContentOurTeam';
-import ContentNeedAmbulance from './Content/ContentNeedAmbulance';
-
+import React from "react";
+import "./Style/AboutUs.css";
+import AboutusBorder from "./Components/AboutusBorder";
+import ContentAboutusBorder from "./Content/ContentAboutusBorder";
+import Advantages from "../Home/Components/Advantages";
+import ContentAdvantages from "../Home/Content/ContentAdvantages";
+import ContentSpecialOffer from "../Home/Content/ContentSpecialOffer";
+import ContentTestimonial from "../Home/Content/ContentTestimonial";
+import ContentLatestBlog from "../Home/Content/ContentLatestBlog";
+import SpecialOffer from "../Home/Components/SpecialOffer";
+import Testimonial from "../Home/Components/Testimonial";
+import LatestBlog from "../Home/Components/LatestBlog";
+import ContentNewsletter from "../Home/Content/ContentNewsletter";
+import Newsletter from "../Home/Components/Newsletter";
 const AboutUs = () => {
   return (
-    <div className='AboutUs'>
-        <AboutUsTecHealth data={ContentAboutUsTecHealth}/>
-        <MakeUs data={ContentMakeUs}/>
-        <Started data={ContentStarted}/>
-        <Advantages data={ContentAdvantages}/>
-        <ChooseUs data={ContentChooseUs}/>
-        <Service data={ContentService}/>
-        <OurTeam data={ContentOurTeam}/>
-        <NeedAmbulance data={ContentNeedAmbulance}/>
-    </div>
-  )
-}
+    <>
+      <AboutusBorder data={ContentAboutusBorder} />
+      <Advantages data={ContentAdvantages} />
+      <SpecialOffer data={ContentSpecialOffer} />
+      <Testimonial data={ContentTestimonial} />
+      <Newsletter data={ContentNewsletter} />
+      <LatestBlog data={ContentLatestBlog} />
+    </>
+  );
+};
 
-export default AboutUs
+export default AboutUs;
