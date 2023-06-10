@@ -12,10 +12,13 @@ import Testimonial from "../Home/Components/Testimonial";
 import LatestBlog from "../Home/Components/LatestBlog";
 import ContentNewsletter from "../Home/Content/ContentNewsletter";
 import Newsletter from "../Home/Components/Newsletter";
+import AboutUsSection from "./Components/AboutUsSection";
+import ContentAboutusSection from "./Content/ContentAboutUsSection";
 const AboutUs = () => {
   return (
     <>
       <AboutusBorder data={ContentAboutusBorder} />
+      <AboutUsSection data = {ContentAboutusSection}/>
       <Advantages data={ContentAdvantages} />
       <SpecialOffer data={ContentSpecialOffer} />
       <Testimonial data={ContentTestimonial} />
