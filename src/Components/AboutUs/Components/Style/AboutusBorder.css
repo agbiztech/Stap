@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&display=swap");
+.aboutus-border-wrapper {
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 90px;
+  height: 30vh;
+  background-color: rgba(0, 159, 177, 0.08);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-border-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.about-heading {
+  font-weight: 600;
+  font-size: 3rem;
+  color: #0d3b51;
+  font-family: "montserrat", sans-serif;
+}
+.aboutus-para-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.aboutus-para {
+  font-weight: 500;
+  font-family: "montserrat", sans-serif;
+  padding-left: 5px;
+  padding-right: 5px;
+  text-align: center;
+  font-size: 1em;
+  color: rgb(5, 5, 5);
+}
+.us-heading-bg-color {
+  display: inline;
+  font-weight: 600;
+  font-size: 2.7rem;
+  color: #0d3b51;
+  background-color: #399f6e;
+  border-radius: 37px 0 49px 0px;
+  font-family: "montserrat", sans-serif;
+}
+@media (max-width: 1200px) {
+  .aboutus-border-wrapper {
+    height: 30vh;
+    margin-top: 96px;
+  }
+  .about-heading {
+    font-size: 2.4rem;
+  }
+}
+@media (max-width: 540px) {
+  .aboutus-para {
+    font-size: 0.7em;
+  }
+}
