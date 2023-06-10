@@ -16,7 +16,7 @@
 }
 .about-heading {
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #0d3b51;
   font-family: "montserrat", sans-serif;
 }
@@ -38,7 +38,7 @@
 .us-heading-bg-color {
   display: inline;
   font-weight: 600;
-  font-size: 2.7rem;
+  font-size: 2.5rem;
   color: #0d3b51;
   background-color: #399f6e;
   border-radius: 37px 0 49px 0px;
@@ -53,7 +53,22 @@
     font-size: 2.4rem;
   }
 }
-@media (max-width: 540px) {
+@media (max-width: 600px) {
+  .about-heading {
+    font-weight: 600;
+    font-size: 2rem;
+    color: #0d3b51;
+    font-family: "montserrat", sans-serif;
+  }
+  .us-heading-bg-color {
+    display: inline;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #0d3b51;
+    background-color: #399f6e;
+    border-radius: 37px 0 49px 0px;
+    font-family: "montserrat", sans-serif;
+  }
   .aboutus-para {
     font-size: 0.7em;
   }
