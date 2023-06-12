@@ -1,0 +1,52 @@
+.privacy-report{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    gap:3rem;
+    margin-block: 30px;
+    
+}
+
+.privacy-report-heading{
+    font-size: 1.7rem;
+    color: #0072c6;
+    font-weight: bold;
+}
+
+.privacy-report-1{
+    width: 50%;
+}
+.privacy-report-2{
+    text-align: justify;
+    width: 50%;
+}
+
+@media screen and (max-width: 900px){
+   .privacy-report{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    
+   }
+   .privacy-report-1,.privacy-report-2{
+    width: 90%;
+   }
+   .privacy-report{
+    width: 100%;
+    
+   }
+   .privacy-report-heading{
+    font-size: 27px;
+    
+}
+   
+}
+
+
+@media screen and (max-width: 500px){
+    .privacy-report{
+       padding: 0 1.5rem;
+        
+       }
+}

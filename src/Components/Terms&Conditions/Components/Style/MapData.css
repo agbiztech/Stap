@@ -1,0 +1,45 @@
+.MapData_parent {
+    display: flex;
+    gap: 30px;
+    margin: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.MapData_card {
+    max-width: 40%;
+}
+
+.MapData_card-h {
+    font-size: 1.7rem;
+    color: #0072c6;
+    font-weight: 600;
+
+
+}
+
+.MapData_card-p {
+    padding-top: 7px;
+    font-family: "Poppins", Sans-serif;
+    line-height: 1.8;
+}
+
+
+@media (max-width:900px) {
+    .MapData_card {
+        min-width: 100%;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+}
+
+@media (max-width:600px) {
+    .MapData_card-p {
+        text-align: justify;
+        padding-top: 7px;
+        font-family: "Poppins", Sans-serif;
+        line-height: 1.8;
+    }
+
+}
