@@ -4,12 +4,13 @@ import AboutusBorder from "../AboutUs/Components/AboutusBorder";
 import ContactusBorder from "./Content/ContactusBorder";
 import ContactusForm from "./Components/ContactusForm";
 import ContactusMap from "./Components/ContactusMap";
+import ContentContactusForm from "./Content/ContentContactusForm";
 
 const ContactUs = () => {
   return (
    <>
       <AboutusBorder data={ContactusBorder}/>
-      <ContactusForm />
+      <ContactusForm data={ContentContactusForm}/>
       <ContactusMap/>
     </>
   );

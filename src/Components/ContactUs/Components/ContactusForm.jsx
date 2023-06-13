@@ -9,7 +9,7 @@ import AddBusinessIcon from "@mui/icons-material/AddBusiness";
 import ContactPhoneIcon from "@mui/icons-material/ContactPhone";
 import MarkunreadIcon from "@mui/icons-material/Markunread";
 
-const ContactusForm = () => {
+const ContactusForm = (props) => {
   const validate = yup.object({
     firstName: yup.string().min(2).required(),
     lastName: yup.string().min(2).required(),
@@ -69,25 +69,25 @@ const ContactusForm = () => {
       <div className="container ContactForm-1">
         <div className="row ContactForm-1">
           <div className="col-lg-4 col-md-12 ContactForm-2 row">
-            <h3 className="col-12">Have a question in mind? reach us now</h3>
+            <h3 className="contactform-heading col-12">{props.data.Heading}</h3>
             <p>
-              we're focused to establish long term relationship with patients
+             {props.data.Para}
             </p>
             <div className="row">
               <div className="col-12 ContactForm-3">
-                <AddBusinessIcon /> 
-             4517 Washington Ave Manchester,Kentucky 39495.
+                <AddBusinessIcon  sx={{color:'#0d3b51', fontSize:'2rem', marginRight:'1rem'}}/> 
+             {props.data.address}
               </div>
               <div className="col-12 ContactForm-3">
-                <ContactPhoneIcon /> (235)555-018
+                <ContactPhoneIcon  sx={{color:'#0d3b51', fontSize:'2rem', marginRight:'1rem'}}/> {props.data.phone}
               </div>
 
               <div className="col-12 ContactForm-3">
-                <MarkunreadIcon /> Contact@lepus.com
+                <MarkunreadIcon  sx={{color:'#0d3b51', fontSize:'2rem', marginRight:'1rem'}}/> {props.data.email}
               </div>
             </div>
           </div>
-          <div className="col-lg-6 col-md-12">
+          <div className="col-lg-7 col-md-12">
             <Form
               method="POST"
               onSubmit={user.handleSubmit}
