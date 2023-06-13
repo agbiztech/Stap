@@ -16,14 +16,19 @@
     "@mui/icons-material": "^5.11.16",
     "@mui/material": "^5.13.3",
     "@mui/styled-engine-sc": "^5.12.0",
+    "axios": "^1.4.0",
     "bootstrap": "^5.2.3",
+    "formik": "^2.4.1",
     "mdb-react-ui-kit": "^6.0.0",
     "react": "^18.2.0",
     "react-bootstrap": "^2.7.4",
+    "react-bootstrap-sweetalert": "^5.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.11.2",
     "styled-components": "^5.3.11",
-    "swiper": "^9.3.2"
+    "sweetalert": "^2.1.2",
+    "swiper": "^9.3.2",
+    "yup": "^1.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.28",

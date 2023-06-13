@@ -8,7 +8,7 @@ import { Button, TextField } from "@mui/material";
 
 import "swiper/swiper-bundle.min.css";
 import { WidthFull } from "@mui/icons-material";
-import zIndex from "@mui/material/styles/zIndex";
+
 const SpecialOffer = (props) => {
   return (
     <>

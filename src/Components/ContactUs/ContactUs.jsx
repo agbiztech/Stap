@@ -7,11 +7,11 @@ import ContactusMap from "./Components/ContactusMap";
 
 const ContactUs = () => {
   return (
-    <div className="ContactUs">
+   <>
       <AboutusBorder data={ContactusBorder}/>
-      <ContactusForm/>
+      <ContactusForm />
       <ContactusMap/>
-    </div>
+    </>
   );
 };
 
