@@ -44,6 +44,27 @@ const SpecialOffer = (props) => {
                 <span className="special-discount">
                   <div className="special-discount-content">60% off</div>
                 </span>
+                <div className=" mx-5 special-offer-content">
+                      <Card.Title
+                        style={{ fontWeight: "bold", color: "white",fontSize: "1.4em"}}
+                        className="d-flex justify-content-start align-items-center spoff-title"
+                      >
+                        {" "}
+                        {item.title}
+                      </Card.Title>
+                      <Card.Text
+                        style={{ color: "white", fontSize: "1.3em" }}
+                        className="d-flex justify-content-start align-items-center spoff-title"
+                      >
+                        {item.paragraph}
+                      </Card.Text>
+                      <Card.Text
+                        style={{ color: "white", fontSize: "18px" }}
+                        className="d-flex  align-items-center justify-content-start spoff-title"
+                      >
+                        {item.place}
+                      </Card.Text>
+                    </div>
                 <Card.Img src={item.linkedImg} alt="Card image" />
                 <div
                   className="d-flex align-items-center"
@@ -52,27 +73,7 @@ const SpecialOffer = (props) => {
                   <Card.ImgOverlay
                     style={{ background: "black", opacity: 0.4 }}
                   >
-                    <div className=" mx-5 ">
-                      <Card.Title
-                        style={{ fontWeight: "bold", color: "white"}}
-                        className="d-flex justify-content-start align-items-center"
-                      >
-                        {" "}
-                        {item.title}
-                      </Card.Title>
-                      <Card.Text
-                        style={{ color: "white", fontSize: "14px" }}
-                        className="d-flex justify-content-start align-items-center"
-                      >
-                        {item.paragraph}
-                      </Card.Text>
-                      <Card.Text
-                        style={{ color: "white", fontSize: "18px" }}
-                        className="d-flex  align-items-center justify-content-start"
-                      >
-                        {item.place}
-                      </Card.Text>
-                    </div>
+                    
                    
                   </Card.ImgOverlay>
                 </div>

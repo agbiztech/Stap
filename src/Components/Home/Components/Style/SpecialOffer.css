@@ -1,4 +1,4 @@
-/* .special-discount::before, */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@300&display=swap");
 .special-discount{
   position: absolute;
   right: 0;
@@ -8,7 +8,7 @@
   width: 113px;
   background-color: #399f6e;
   border-radius: 65px 0 12px 11px;
-  z-index: 1;
+ 
 }
 .special-discount-content{
   position: absolute;
@@ -18,4 +18,14 @@
   font-size: 1.3em;
   color: rgb(255, 255, 255) ;
   z-index: 1;
+}
+.special-offer-content {
+  position: absolute;
+  top: 15px;
+  content: '';
+  z-index: 1;
+}
+.spoff-title{
+  font-family: "montserrat", sans-serif !important;
+  ;
 }
